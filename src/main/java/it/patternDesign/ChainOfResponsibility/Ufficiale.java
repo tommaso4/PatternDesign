@@ -29,6 +29,7 @@ public abstract class Ufficiale {
                 System.out.println(this.setTipoUfficiale());
                 return this;
             } else {
+                System.out.println("Hello!");
                 return getSuccessivo().getUfficialePerStipendio(stipendio);
             }
         }else {
