@@ -15,5 +15,7 @@ public class Main {
         maggiore.setSuccessivo(capitano);
         capitano.setSuccessivo(tenente);
         generale.getUfficialePerStipendio(5000);
+
+        System.out.println("Hello WOrld!!!");
     }
 }
